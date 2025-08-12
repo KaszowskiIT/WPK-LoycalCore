@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Modul1" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Status bar enforced -->
+        <item name="android:statusBarColor">#2196F3</item>
+        <item name="android:windowLightStatusBar">false</item>
+
+        <!-- Navigation bar -->
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightNavigationBar">false</item>
+
+        <!-- Android 12+ Material You prevention -->
+        <item name="android:colorPrimary">#2196F3</item>
+        <item name="android:colorPrimaryDark">#1976D2</item>
+
+        <!-- Samsung One UI compatibility -->
+        <item name="android:enforceStatusBarContrast">false</item>
+        <item name="android:enforceNavigationBarContrast">false</item>
+
+        <!-- Splash screen -->
+        <item name="android:windowSplashScreenBackground">#2196F3</item>
+    </style>
+</resources>
