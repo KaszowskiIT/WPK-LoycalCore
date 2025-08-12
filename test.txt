@@ -1,4 +1,4 @@
-nowy tekst
+Nowa treść
 Hello World!
 
 
